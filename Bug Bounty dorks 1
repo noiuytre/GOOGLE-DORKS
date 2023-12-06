@@ -1,0 +1,61 @@
+site:target.com intitle:login — This Google dork will search for login pages on a specific website. Hackers can use this to find unsecured login pages and gain access to sensitive information.
+filetype:sql intext:password — This Google dork will search for SQL database files containing passwords. This is a common way for hackers to find login credentials.
+intitle:index.of “parent directory” — This Google dork will search for directories that may contain sensitive information, such as backups or configuration files.
+inurl:/proc/self/environ — This Google dork will search for environment variables on a website. These variables can contain sensitive information such as database credentials.
+intext:username= AND intext:password= — This Google dork will search for login pages that have both a username and password field. This is a common way for hackers to find login credentials.
+inurl:/wp-content/uploads/ — This Google dork will search for WordPress uploads directories. Hackers can use this to find files that may contain sensitive information such as login credentials or configuration files.
+site:target.com filetype:pdf intext:password — This Google dork will search for PDF files containing passwords. This is a common way for hackers to find login credentials.
+inurl:/cgi-bin/ — This Google dork will search for CGI scripts on a website. Hackers can use this to find vulnerabilities in the script and potentially gain access to sensitive information.
+inurl:/wp-admin/ — This Google dork will search for WordPress admin pages. Hackers can use this to gain access to the admin panel and potentially gain access to sensitive information.
+intitle:”index of” “config.yml” — This Google dork will search for configuration files on a website. These files can contain sensitive information such as database credentials.
+site:target.com ext:xml | ext:conf | ext:cnf | ext:reg | ext:inf | ext:rdp | ext:cfg | ext:txt | ext:ora | ext:ini — This Google dork will search for various configuration files on a specific website, which may contain sensitive information such as login credentials or database connection strings.
+intext:”sql syntax near” | intext:”syntax error has occurred” | intext:”incorrect syntax near” | intext:”unexpected end of SQL command” — This Google dork will search for SQL errors on a website, which may indicate a vulnerability that could be exploited by hackers.
+inurl:/phpmyadmin/ — This Google dork will search for phpMyAdmin installations on a website, which could potentially give hackers access to a website’s database.
+site:target.com intext:”powered by wordpress” — This Google dork will search for websites that are powered by WordPress, which may have vulnerabilities that can be exploited by hackers.
+site:target.com intitle:”Index of /” “config.php” — This Google dork will search for config.php files on a website, which may contain sensitive information such as database credentials.
+site:target.com inurl:/admin/login.php — This Google dork will search for login pages for a website’s admin panel, which may have vulnerabilities that can be exploited by hackers.
+site:target.com intitle:”phpinfo()” — This Google dork will search for phpinfo() pages on a website, which can reveal information about a website’s PHP configuration that can be useful for hackers.
+site:target.com ext:log — This Google dork will search for log files on a website, which can contain sensitive information such as IP addresses, login attempts, and errors.
+site:target.com intext:”login” inurl:”/admin” — This Google dork will search for admin login pages on a website, which can be used by hackers to gain access to an admin panel.
+site:target.com intext:”Error Message : Error loading required libraries.” — This Google dork will search for websites that have missing or outdated libraries, which can indicate a vulnerability that can be exploited by hackers.
+site:target.com filetype:sql password — This Google dork will search for SQL databases that contain passwords, which can be used by hackers to gain unauthorized access to a website.
+site:target.com inurl:/password.txt — This Google dork will search for password.txt files on a website, which may contain login credentials that can be used by hackers to gain access to a website.
+site:target.com intitle:”index of” .htpasswd — This Google dork will search for .htpasswd files on a website, which may contain encrypted passwords that can be cracked by hackers.
+site:target.com intitle:”Index of /” “.ssh” — This Google dork will search for .ssh directories on a website, which may contain SSH keys that can be used by hackers to gain access to a website.
+site:target.com ext:php | ext:asp | ext:aspx | ext:jsp — This Google dork will search for PHP, ASP, ASPX, or JSP files on a website, which may contain vulnerabilities that can be exploited by hackers.
+site:target.com intitle:”index of” db_backup.sql | db.sql | database.sql | sql | .sql.gz | .sql.bz2 — This Google dork will search for database backups and SQL files on a website, which may contain sensitive information such as login credentials or personal information.
+site:target.com filetype:pdf “Confidential” | “Secret” | “Classified” — This Google dork will search for PDF files on a website that contain sensitive information marked as confidential, secret, or classified.
+site:target.com inurl:/cgi-bin/ + intext:”User ID” + intext:”Password” — This Google dork will search for CGI scripts on a website that require login credentials, which may be vulnerable to brute-force attacks.
+site:target.com intitle:”Index of /” “backup” — This Google dork will search for backup files on a website, which may contain sensitive information such as login credentials or personal information.
+site:target.com inurl:”/wp-content/uploads/” + intext:”Index of /” — This Google dork will search for WordPress upload directories on a website, which may contain sensitive files that have been uploaded by users.
+site:target.com inurl:wp-config.php — This Google dork will search for WordPress configuration files on a website, which may contain database credentials and other sensitive information.
+site:target.com inurl:server-status — This Google dork will search for server status pages on a website, which can reveal information about a server’s configuration and performance.
+site:target.com ext:doc | ext:docx | ext:pdf | ext:xls | ext:xlsx | ext:ppt | ext:pptx — This Google dork will search for Microsoft Office and PDF files on a website, which may contain sensitive information.
+site:target.com inurl:/api/ — This Google dork will search for API endpoints on a website, which may be vulnerable to attacks such as SQL injection or cross-site scripting (XSS).
+site:target.com ext:php intitle:phpinfo “published by the PHP Group” — This Google dork will search for PHP info pages on a website, which can reveal information about a website’s PHP configuration that can be useful for hackers.
+site:target.com intitle:”index of” “.git” — This Google dork will search for Git directories on a website, which may contain sensitive information such as passwords or access tokens.
+site:target.com filetype:env — This Google dork will search for .env files on a website, which may contain sensitive information such as API keys or login credentials.
+site:target.com inurl:/wp-json/wp/v2/users/ — This Google dork will search for WordPress user APIs on a website, which may reveal information about users that can be useful for hackers.
+site:target.com inurl:/plugins/servlet/watermark/ — This Google dork will search for Atlassian JIRA Watermark plugins on a website, which may be vulnerable to remote code execution (RCE) attacks.
+site:target.com intext:”Sign in” | intext:”Sign in to” | intext:”Log in” | intext:”Log in to” — This Google dork will search for login pages on a website, which may have vulnerabilities that can be exploited by hackers.
+site:target.com intitle:”Index of /” “web.config” — This Google dork will search for web.config files on a website, which may contain sensitive information such as database connection strings or application secrets.
+site:target.com inurl:/cgi-bin/login.cgi — This Google dork will search for login pages for CGI scripts on a website, which may be vulnerable to brute-force attacks.
+site:target.com ext:sql | ext:dbf | ext:mdb — This Google dork will search for database files on a website, which may contain sensitive information such as login credentials or personal information.
+site:target.com inurl:”/manage/advanced/” — This Google dork will search for advanced management pages on a website, which may reveal sensitive information or provide access to sensitive functionality.
+site:target.com inurl:/conf/ — This Google dork will search for configuration directories on a website, which may contain sensitive information such as database credentials or API keys.
+site:target.com inurl:/cgi-bin/ + intext:”login” + intext:”password” — This Google dork will search for CGI scripts on a website that require login credentials, which may be vulnerable to brute-force attacks.
+site:target.com intext:”Powered by” AND intext:”PHP Version” — This Google dork will search for websites that are powered by PHP and reveal the PHP version, which can be useful for identifying vulnerabilities in PHP applications.
+site:target.com intitle:”index of” “.htpasswd” — This Google dork will search for .htpasswd files on a website, which may contain passwords and user information.
+site:target.com inurl:wp-includes | inurl:wp-content | inurl:wp-admin | inurl:wp-login.php — This Google dork will search for common WordPress directories and files on a website, which may reveal vulnerabilities or provide access to sensitive functionality.
+site:target.com inurl:/api/v1 — This Google dork will search for API v1 endpoints on a website, which may reveal information about users or provide access to sensitive functionality.
+ Bonus 😁
+site:target.com intitle:”Index of /” “config.json” — This Google dork will search for config.json files on a website, which may contain sensitive information such as API keys or database credentials.
+site:target.com ext:php intext:”Powered by” AND intext:”admin” — This Google dork will search for administrative pages of PHP-powered websites, which may have vulnerabilities that can be exploited by hackers.
+site:target.com inurl:/mailman/listinfo/ — This Google dork will search for Mailman mailing lists on a website, which may reveal email addresses and other sensitive information.
+site:target.com intitle:”Index of /” “error_log” — This Google dork will search for error_log files on a website, which may contain sensitive information such as file paths or debug information.
+site:target.com filetype:env intext:DB_USERNAME — This Google dork will search for .env files that contain database username information on a website.
+site:target.com inurl:”/admin/user/” — This Google dork will search for user administration pages on a website, which may provide access to sensitive functionality or reveal user information.
+site:target.com intitle:”Index of /” “php.ini” — This Google dork will search for php.ini files on a website, which may contain sensitive information such as database credentials or API keys.
+site:target.com inurl:admin.php intext:”username” intext:”password” — This Google dork will search for administrative login pages on a website that require username and password credentials.
+site:target.com filetype:txt | filetype:log | filetype:xml | filetype:ini | filetype:conf | filetype:cnf | filetype:reg | filetype:inf — This Google dork will search for various types of configuration files on a website that may contain sensitive information.
+site:target.com intext:”Web Explorer Server — Login” — This Google dork will search for login pages for the Web Explorer Server, which may be vulnerable to brute-force attacks or other exploits.
